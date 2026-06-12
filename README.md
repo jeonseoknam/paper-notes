@@ -20,6 +20,27 @@
 
 ## 목록
 
+### ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Multimap SLAM
+- **분야**: Visual SLAM, Visual-Inertial SLAM, Multi-Map SLAM, Localization, Bundle Adjustment
+- **출처**: IEEE Transactions on Robotics, 2021 ([link](https://doi.org/10.1109/TRO.2021.3075644))
+- **내용**: monocular/stereo/RGB-D 카메라와 IMU를 모두 지원하는 통합 visual·visual-inertial SLAM
+  라이브러리. MAP 추정 기반 IMU 초기화와 여러 sub-map을 관리·병합하는 Atlas(multimap) 구조로,
+  추적 실패·재방문 상황에서도 robust한 재localization과 높은 정확도를 달성한다.
+
+### ORB-SLAM2: An Open-Source SLAM System for Monocular, Stereo, and RGB-D Cameras
+- **분야**: Visual SLAM, Localization, Loop Closing, Bundle Adjustment
+- **출처**: IEEE Transactions on Robotics, 2017 ([link](https://doi.org/10.1109/TRO.2017.2705103))
+- **내용**: monocular·stereo·RGB-D 카메라를 모두 지원하는 오픈소스 SLAM 시스템. full bundle
+  adjustment 기반 loop closing과, 맵을 고정한 채 추적만 수행하는 경량 localization 모드를 제공하며,
+  다양한 공개 데이터셋에서 실시간으로 동작함을 보였다.
+
+### ORB-SLAM: A Versatile and Accurate Monocular SLAM System
+- **분야**: Monocular Visual SLAM, ORB Features, Loop Closing, Relocalization
+- **출처**: IEEE Transactions on Robotics, 2015 ([link](https://doi.org/10.1109/TRO.2015.2463671))
+- **내용**: ORB 특징을 tracking·mapping·loop closing·relocalization 전 과정에 일관되게 사용하는
+  monocular SLAM. covisibility graph 기반 local map과 survival-of-the-fittest 방식의 keyframe/point
+  선택 전략으로, 넓은 환경에서도 정확하고 robust하게 동작한다.
+
 ### 3-D Point Cloud Map Compression for Connected Intelligent Vehicles
 - **분야**: Point Cloud Map, Map Compression, Localization, Connected/Autonomous Vehicles, Edge Computing
 - **출처**: IEEE Internet Computing, 2024 ([link](https://doi.org/10.1109/MIC.2023.3342793))
