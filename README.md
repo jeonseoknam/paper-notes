@@ -40,4 +40,4 @@
 - **내용**: 다중 측위 시스템을 느슨하게(loosely-coupled) 융합할 때 각 시스템이 갖는
   slow-varying bias를 무시하면 추정이 왜곡되는 문제를 다룬다. (1) 칼만 필터로 reference 대비
   target의 bias 차이를 추정·정렬한 뒤, (2) bias-aligned 추정치를 T2T 기법(KF / CU / CI / Split CI)으로
-  융합해 일관성 있고 정확한 측위 결과를 얻는다.
+  융합해 일관성 있고 정확한 측위 결과를 얻는다. 시뮬레이션 기반 검증이 수행되었다.
