@@ -20,9 +20,23 @@
 
 ## 목록
 
+### 3-D Point Cloud Map Compression for Connected Intelligent Vehicles
+- **분야**: Point Cloud Map, Map Compression, Localization, Connected/Autonomous Vehicles, Edge Computing
+- **출처**: IEEE Internet Computing, 2024 ([link](https://doi.org/10.1109/MIC.2023.3342793))
+- **내용**: 저사양 차량이 PCD(3-D point cloud) 맵으로 정확히 측위할 수 있도록, 엣지 서버에서 맵을
+  압축·맞춤 제공하는 framework를 제안한다. 각 경로 waypoint에서 voxelization과 localizability 개념을
+  결합한 path-aware 압축으로, 요구 측위 성능을 만족하면서 서버·차량의 연산량을 크게 줄인다.
+
+### Localization Fusion Framework Based on Track-to-Track Fusion With Bias Correction
+- **분야**: Localization, Sensor Fusion, Track-to-Track (T2T) Fusion, Split Covariance Intersection (SCIF), Bias Estimation
+- **출처**: IEEE Transactions on Industrial Informatics, 2025 ([link](https://doi.org/10.1109/TII.2024.3449993))
+- **내용**: loosely-coupled 측위 융합에서 각 시스템의 slow-varying bias를 다루는 framework. (1) 칼만
+  필터로 reference 대비 target의 bias를 추정해 공통 bias로 정렬하고, (2) 시스템 간 독립성과 상관을 함께
+  고려하는 SCIF로 융합해 fusion consistency를 보장한다. 시뮬레이션과 실제 도심 환경에서 검증.
+
 ### Loosely-coupled localization fusion system based on track-to-track fusion with bias alignment
 - **분야**: Localization, Sensor Fusion, Track-to-Track (T2T) Fusion, Kalman Filter
-- **출처**: IEEE ICRA 2023 ([link](https://ieeexplore.ieee.org/document/10160567))
+- **출처**: IEEE ICRA 2023 ([link](https://doi.org/10.1109/ICRA48891.2023.10160567))
 - **내용**: 다중 측위 시스템을 느슨하게(loosely-coupled) 융합할 때 각 시스템이 갖는
   slow-varying bias를 무시하면 추정이 왜곡되는 문제를 다룬다. (1) 칼만 필터로 reference 대비
   target의 bias 차이를 추정·정렬한 뒤, (2) bias-aligned 추정치를 T2T 기법(KF / CU / CI / Split CI)으로
