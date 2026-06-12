@@ -20,10 +20,10 @@
 
 ## 목록
 
-### Reliable Fusion of Vehicle Localization Using Split Covariance Intersection
-- **분야**: State Estimation, Sensor Fusion, Covariance Intersection
-- **출처**: 예시 항목, 2026 ([link](#))
-- **내용**: 측정 간 common-mode 상관을 분리해 처리하는 Split CI 기반 융합 기법.
-  과신(overconfidence) 없이 일관성 있는 공분산을 유지하는 것이 핵심.
-
-<!-- 위 항목은 양식 예시입니다. 실제 기록을 추가한 뒤 지워도 됩니다. -->
+### Loosely-coupled localization fusion system based on track-to-track fusion with bias alignment
+- **분야**: Localization, Sensor Fusion, Track-to-Track (T2T) Fusion, Kalman Filter
+- **출처**: IEEE ICRA 2023 ([link](https://ieeexplore.ieee.org/document/10160567))
+- **내용**: 다중 측위 시스템을 느슨하게(loosely-coupled) 융합할 때 각 시스템이 갖는
+  slow-varying bias를 무시하면 추정이 왜곡되는 문제를 다룬다. (1) 칼만 필터로 reference 대비
+  target의 bias 차이를 추정·정렬한 뒤, (2) bias-aligned 추정치를 T2T 기법(KF / CU / CI / Split CI)으로
+  융합해 일관성 있고 정확한 측위 결과를 얻는다.
