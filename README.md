@@ -20,6 +20,13 @@
 
 ## 목록
 
+### Unscented Kalman Filter Based 3D Localization of Outdoor Mobile Robots
+- **분야**: Mobile Robot, Unscented Kalman Filter (UKF), 3D Localization, Sensor Fusion
+- **출처**: 한국정밀공학회지 (J. Korean Soc. Precis. Eng.), Vol. 37, No. 5, 2020 ([link](https://doi.org/10.7736/JKSPE.019.066))
+- **내용**: EKF의 선형화·자코비안 계산 없이 UKF(Unscented Transform)로 옥외 이동로봇의 3차원 위치를
+  추정한다. 엔코더와 틸트 센서로 위치를 예측하고 GPS·디지털 컴퍼스 측정으로 융합·보정하며,
+  초기 오차 크기나 관측 주기와 무관하게 안정적인 3D 측위가 가능함을 실험으로 보였다.
+
 ### ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual–Inertial, and Multimap SLAM
 - **분야**: Visual SLAM, Visual-Inertial SLAM, Multi-Map SLAM, Localization, Bundle Adjustment
 - **출처**: IEEE Transactions on Robotics, 2021 ([link](https://doi.org/10.1109/TRO.2021.3075644))
